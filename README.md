@@ -9,6 +9,8 @@ We can view transaction history and balances of clients
 
 ## Endpoints:
 
+app binds to port `8080`
+
 * `GET`: /client/\<id\> - Information about client
 * `GET`: /client/\<id\>/balance/\<currency\> - Balance in particular currency (USD, EUR, GBP)
 * `POST`: /client - Register new client

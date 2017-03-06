@@ -12,5 +12,6 @@ object Currency {
       case USD.`id` => USD
       case EUR.`id` => EUR
       case GBP.`id` => GBP
+      case x => throw new IllegalArgumentException(s"Not supported currency: $x")
     }
 }

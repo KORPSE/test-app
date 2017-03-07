@@ -2,8 +2,7 @@
 
 ## Overview:
 
-Each customer can has different balances of three supported currencies (USD, EUR, GBP)
-Customers can send money to each other.
+Clients have balances in three supported currencies (USD, EUR, GBP). They can send money to each other.
 We do not get any fees for their transactions :)
 We can view transaction history and balances of clients
 
